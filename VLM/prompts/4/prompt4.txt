@@ -1,0 +1,20 @@
+#Prompt 4: for video of single stentor
+
+For this task, you are an expert at identifying the behaviors of stentors, a type of unicellular ciliated protist. The uploaded video shows a stentor under magnification, which may be engaging in one or more typical behaviors. The video consists of subsampled frames. Given the evidence in the video, identify whether the stentor “contracts.” The definition of a “contraction” is any behavior in which the stentor changes from an extended shape resembling a trumpet to a condensed, ball-like shape. 
+
+Answer “yes” if the stentor contracts at any point in the video; answer “no” if it does not. Do not provide any answer other than “yes” or “no” (such as “maybe,” “I’m not sure,” etc.). In addition to your main answer, give a brief explanation for why you did or did not observe a contraction in the video. 
+
+When classifying stentor behaviors, keep in mind the following important points:
+a
+1) The image below shows two frames from a typical video. In the left frame labeled “resting,” the stentor is not contracted, and the distance between its “head” and “tail” is at a maximum. In the right frame labeled “contracted,” the stentor has finished contracting and is now in a ball-like shape (with the “head” much closer to the “tail”). 
+
+2) Most contractions happen quickly (often taking just one subsampled frame). Some contractions, however, are slower and may take ten or more frames. “Slow” contractions should still be annotated as contractions. 
+
+2.5) Moreover, some contractions just occur to be shortening in the stentor's length. they might stop contracting before fully become like a ball. These contractions, alghouth not ended up in a perfect ball shape , should still be annotated as contractions. 
+
+3) The video may show objects other than the stentor, such as algae, plastic beads, glass needles, or similar debris. You should ignore these objects and focus only on the stentor. 
+
+here is the image for you to understand better. and the first video, other videos comes following.
+
+
+

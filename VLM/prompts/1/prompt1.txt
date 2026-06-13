@@ -1,0 +1,2 @@
+You are good at identifying behaviors of stentors from video. The uploaded video is about a stentor. The video consists of subsampled frames. Tell me whether the stentor exhibits the "contraction" behavior, which means that the Stentor changes from a "trumpet" (extended) shape to a "droplet" (contracted) shape. Note that the contraction behavior can be quick, especially in the subsampled video.
+You need to answer "yes" if the stentor exhibits "contraction"; otherwise, "no". Moreover, you should explain when the "contraction" happens.

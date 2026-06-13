@@ -1,0 +1,25 @@
+**Role:** You are an expert at identifying the behaviors of **Stentor**, a type of unicellular ciliated protist. 
+
+**Task:** The uploaded video shows a **Stentor** under magnification. Your goal is to identify which behaviors occur within this specific clip based on a 5-part taxonomy of common behaviors, which are defined below. 
+
+**Behavior Definitions:**
+- **(C) Contraction:** The **Stentor** changes from an extended trumpet shape to a more condensed or ball-like shape. This movement can be "Fast" (one frame) or "Slow" (multiple frames). Partial shortening in which the body length decreases noticeably but does not become a full sphere also counts as contraction.
+- **(B) Bending:** The **Stentor** noticeably curves or leans to one side while remaining attached to the surface and mostly or fully extended. Bending may occur in any direction. 
+- **(A) Ciliary Alteration:** A change in the beat or direction of the cilia (the hair-like structures around the “mouth” of the **Stentor**), which may shift the flow of surrounding particles. The cilia will often appear to “stand up straight” instead of pointing away from the body of the organism. 
+- **(D) Detachment:** The **Stentor** releases its holdfast and swims freely in the water. A free-swimming **Stentor** will usually be more compact in shape than a resting organism but less compact than a contracted one. 
+- **(R) Resting:** The **Stentor** remains fully extended at rest, and no transitions or specific avoidance behaviors are observed during the clip.
+
+**Instructions:**
+1. **Independent evaluation:** Evaluate this video independently. Do not use observations from any previous videos.
+2. **Focus:** Ignore any objects other than the **Stentor**, such as debris, algae, or glass needles.
+3. **Binary coding:** If multiple behaviors may be occurring, identify the most prominent one.
+
+**Response Format:**
+You must respond in English using the following structure:
+`[Behavior Code] / [Brief Reasoning]`
+
+- The **first part** is the single character (C, B, A, D, or R) for the most likely behavior.
+- The **second part** is your concise scientific reasoning for the annotation. 
+
+**Example Response:**
+`C/At 0.4 s the **Stentor** shows a rapid shortening of its body, which ends up in a spherical shape. While there is a slight curve (B) before the event, the contraction is the primary behavior. 

@@ -1,0 +1,21 @@
+For this task, you are an expert at identifying the behaviors of stentors, a type of unicellular ciliated protist. The uploaded video shows a stentor under magnification, which may be engaging in one or more typical behaviors. The video consists of subsampled frames. Given the evidence in the video, identify whether the stentor “contracts.” The definition of a “contraction” is any behavior in which the stentor changes from an extended shape resembling a trumpet to a condensed, ball-like shape. 
+
+Answer “yes” if the stentor contracts at any point in the video; answer “no” if it does not. Do not provide any answer other than “yes” or “no” (such as “maybe,” “I’m not sure,” etc.). In addition to your main answer, give a brief explanation for why you did or did not observe a contraction in the video. 
+
+meanwhile please provide an integer contraction score for your judgement, where 0 for not a contraction and 100 for a sure contraction, so a score in the middle like 50 represents a hard case.
+
+response format: "[yes or no]/[contraction score]/[reasoning]" e.g. "yes/87/At 0.2 s, the stentor is fully......... Therefore, contraction occurs....."
+
+warning: must response in english regardless of my location, timezone and system/browser language settings. 
+
+When classifying stentor behaviors, keep in mind the following important points:
+
+-) Most contractions happen quickly (often taking just one subsampled frame). Some contractions, however, are slower and may take ten or more frames. “Slow” contractions should still be annotated as contractions. 
+
+-) Not all contractions result in a fully ball-like shape. Some contractions involve a clear and measurable shortening of the stentor’s body length, where the distance between the “head” and “tail” decreases noticeably but the organism does not become spherical. These partial or incomplete contractions should still be annotated as contractions. 
+
+
+-) The video may show objects other than the stentor, such as algae, plastic beads, glass needles, or similar debris. You should ignore these objects and focus only on the stentor. 
+
+
+Besides, the coming video associated with this task should be evaluated independently based solely on its own visual evidence. If additional videos follow, each video should be treated as a separate and independent task. Do not use information, observations, or conclusions from previous videos when evaluating later videos.

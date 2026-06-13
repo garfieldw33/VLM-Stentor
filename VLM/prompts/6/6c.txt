@@ -1,0 +1,51 @@
+#Prompt 6
+
+For this task, you are an expert at identifying the behaviors of stentors, a type of unicellular ciliated protist. The uploaded video shows a stentor under magnification, which may be engaging in one or more typical behaviors. The video consists of subsampled frames. Given the evidence in the video, identify whether the stentor “contracts.” The definition of a “contraction” is any behavior in which the stentor changes from an extended shape resembling a trumpet to a condensed, ball-like shape. 
+
+Answer “yes” if the stentor contracts at any point in the video; answer “no” if it does not. Do not provide any answer other than “yes” or “no” (such as “maybe,” “I’m not sure,” etc.). In addition to your main answer, give a brief explanation for why you did or did not observe a contraction in the video. 
+
+meanwhile please provide an integer contraction score for your judgement, where 0 for not a contraction and 100 for a sure contraction, so a score in the middle like 50 represents a hard case.
+
+response format: "[yes or no]/[contraction score]/[reasoning]" e.g. "yes/87/At 0.2 s, the stentor is fully......... Therefore, contraction occurs....."
+
+When classifying stentor behaviors, keep in mind the following important points:
+
+1) The image (z.jpg) below shows two frames from a typical video. In the left frame labeled “resting,” the stentor is not contracted, and the distance between its “head” and “tail” is at a maximum. In the right frame labeled “contracted,” the stentor has finished contracting and is now in a ball-like shape (with the “head” much closer to the “tail”). 
+
+2) Most contractions happen quickly (often taking just one subsampled frame). Some contractions, however, are slower and may take ten or more frames. “Slow” contractions should still be annotated as contractions. 
+
+2.5) Not all contractions result in a fully ball-like shape. Some contractions involve a clear and measurable shortening of the stentor’s body length, where the distance between the “head” and “tail” decreases noticeably but the organism does not become spherical. These partial or incomplete contractions should still be annotated as contractions. 
+
+two more images are provided to help you better understand what constitutes a contraction versus a non-contraction. The image (a.jpg) below illustrates this case. In the left frame labeled “resting,” the stentor is fully extended and the distance between its “head” and “tail” is at a maximum. In the right frame labeled “contracted,” the stentor has shortened considerably and taken on a spindle-like shape rather than a ball-like shape. This behavior should be classified as a contraction.
+
+The image (b.jpg) below shows another example. In the left frame labeled “resting,” the stentor is fully extended. In the right frame labeled “contracted,” the distance between the “head” and “tail” is reduced slightly but clearly and unambiguously. Although this contraction occurs slowly (over approximately 4 seconds, or about 30 frames), it should still be classified as a contraction.
+
+
+3) The video may show objects other than the stentor, such as algae, plastic beads, glass needles, or similar debris. You should ignore these objects and focus only on the stentor. 
+
+**
+
+Before analysing real stentors video, here are a few video samples of the contraction behaviours. 
+
+
+1- 1_sample_typical4C_0019.mp4 demonstrated a typical contraction, where at second 00:05, it suddenly contracted from a extended form to a much smaller ball hidden beside some debris.
+
+don't start analysising the videos yet, just read the instructions and view the sample images and videos. expect more sample videos coming
+
+*******
+
+2- 2_sample_shortening17I_0418.mp4 demonstrated an example of the "tiny shortening" case. where from the beginning it started a slower shortening, until 00:07 it formed a shorter column shape. this behaviour (during 0:00-0:07) should be considered contraction even if it started "bouncing back" after the second 7.
+
+don't start analysising the videos yet, just read the instructions and view the sample images and videos. expect more sample videos coming
+
+*******
+
+3- 3_sample_complicated4E_0145.mp4 demonstrated an example of a quick contraction happening in a complicated dark background, the stentor in the middle made a quick contraction at second 5 within one second and shaped a condensed spindle.
+
+don't start analysising the videos yet, just read the instructions and view the sample images and videos. This is the last sample videos.
+
+*******
+
+Now you have read the description of the behaviours and viewed some video examples. you can start analysing this video
+
+Besides, the coming video associated with this task should be evaluated independently based solely on its own visual evidence. If additional videos follow, each video should be treated as a separate and independent task. Do not use information, observations, or conclusions from previous videos(expect for the hints from the sample videos) when evaluating later videos.
