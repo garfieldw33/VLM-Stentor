@@ -1,0 +1,32 @@
+## 3. Deploy on a New Workstation (No sudo)
+## **On a new workstation:**
+
+# Copy Ollama binaries to home
+
+mkdir ~/ollama
+
+cp -r /media/ubuntu-user/KINGSTON/portable/OllamaBIN/ollama.tar.zst ~/ollama/ollama.tar.zst
+cd ~/ollama
+tar --use-compress-program=unzstd -xvf ollama.tar.zst
+
+# Copy model cache
+mkdir -p ~/.ollama
+cp -r /media/ubuntu-user/KINGSTON/portable/QwenCHKPs/* ~/.ollama
+
+
+# Add Ollama to PATH:
+
+
+export PATH=$HOME/ollama/bin:$PATH
+
+
+# ---
+
+## 4. Start Ollama
+
+~/ollama/bin/ollama serve
+
+# Test:
+
+~/ollama/bin/ollama run qwen3-vl:8b
+
